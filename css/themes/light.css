@@ -1,0 +1,17 @@
+/* All the styles that apply in light mode */
+body, #k{
+    color: black;
+}
+
+#inner-container {
+    background: rgba(255, 255, 255, 0.90);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20);
+}
+
+#widget-1, #widget-2, #widget-3{
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20);
+    border: 1px white solid;
+}
